@@ -3,7 +3,7 @@
     "source": "functions"
   },
   "hosting": {
-    "public": "dist/ravi-velip",
+    "public": "dist/ravivelip",
     "ignore": [
       "firebase.json",
       "**/.*",
