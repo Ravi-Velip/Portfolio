@@ -14,10 +14,6 @@ const routes: Routes = [
     path: 'my-work',
     loadChildren: () => import('./modules/work/work.module').then(m => m.WorkModule),
   },
-  {
-    path: 'certifications',
-    loadChildren: () => import('./modules/achievements/achievements.module').then(m => m.AchievementsModule),
-  },
 ];
 
 @NgModule({

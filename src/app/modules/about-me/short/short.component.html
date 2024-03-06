@@ -1,45 +1,37 @@
 <div class="site-section" id="about-section">
-    <div class="container">
-        <div class="row ">
-            <div class="col-12 mb-4 position-relative">
-                <!-- <h2 class="section-title">About Me</h2> -->
-            </div>
-            <div class="col-lg-6 order-1 order-lg-1 mb-4 mb-lg-0">
-                <div class="bg-light pt-5">
-                    <img src="../../../../assets/images/me.png" alt="Image" class="img-fluid">
-                </div>
-            </div>
-            <div class="col-lg-6 order-2 order-lg-2">
-                <h2>Hello!</h2>
-                <h4>A Bit About Me</h4>
-                <p>I am an all-round Software Developer. I am a Senior Programmer with good knowledge of front-end
-                    techniques. Diligent software engineer with 5+ years of experience in commercial application and
-                    software development. Eager to join Cyclone Inc. to build innovative and cutting-edge business
-                    solutions for the impressive suite of clients within its global reach.</p>
-
-                <div class="buttonsContainer">
-                    <div class="row text-center">
-                        <div class="col-lg-4 col-sm-4 margin-bottom-40">
-                            <a href="#" class="btn btn-mod btn-border btn-circle btn-large">
-                                <mat-icon>verified</mat-icon> 
-                                Hire
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 margin-bottom-40">
-                            <a href="#" class="btn btn-mod btn-border btn-circle btn-large">
-                                <mat-icon>read_more</mat-icon> 
-                                More
-                            </a>
-                        </div>
-                        <div class="col-lg-4 col-sm-4 margin-bottom-40">
-                            <a href="#" class="btn btn-mod btn-border btn-circle btn-large">
-                                <mat-icon>local_cafe</mat-icon> 
-                                Coffee?
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 mb-4 position-relative">
+        <!-- <h2 class="section-title">About Me</h2> -->
+      </div>
+      <div class="col-lg-6 order-1 order-lg-1 mb-4 mb-lg-0">
+        <div class="bg-light pt-5">
+          <div class="me"></div>
+          <!-- <img src="../../../../assets/images/naktu-profile - Copy.jpeg" alt="Image" class="img-fluid" /> -->
         </div>
+      </div>
+      <div class="col-lg-6 order-2 order-lg-2">
+        <h2 class>Hello!</h2>
+        <h4>A Bit About Me</h4>
+        <p>
+          As a versatile software developer adept in frontend, backend, and cloud technologies, I've collaborated with
+          diverse teams to deliver top-notch code to numerous clients. Eager for new challenges and growth
+          opportunities, I bring unwavering dedication, technical prowess, and a passion for programming to every
+          project.
+        </p>
+
+        <div class="button-c">
+          <a style="cursor: pointer;" (click)="openDialog()" class="more-button"
+            target="_blank"><mat-icon>tag_faces</mat-icon>
+            CONTACT</a>
+          <a href="https://github.com/Ravi-Velip?preview=true" class="more-button"
+            target="_blank"><mat-icon>verified</mat-icon>
+            GITHUB</a>
+          <a href="https://topmate.io/ravi_velip" class="more-button" target="_blank"><mat-icon>local_cafe</mat-icon>
+            COFFEE?</a>
+
+        </div>
+      </div>
     </div>
+  </div>
 </div>

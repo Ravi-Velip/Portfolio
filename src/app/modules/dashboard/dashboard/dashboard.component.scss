@@ -173,11 +173,6 @@ svg:not(:root).svg-inline--fa {
     }
 }
 
-* {
-    margin: 0;
-    padding: 0
-}
-
 body {
     font-family: Poppins, sans-serif;
     font-size: 14px;
@@ -573,45 +568,6 @@ h6 {
     background: rgba(0, 0, 0, 0) no-repeat scroll center center/cover
 }
 
-@-webkit-keyframes rotatee {
-    100% {
-        -webkit-transform: rotate(360deg)
-    }
-}
-
-@keyframes rotatee {
-    100% {
-        transform: rotate(360deg);
-        -webkit-transform: rotate(360deg)
-    }
-}
-
-@-webkit-keyframes bouncee {
-
-    0%,
-    100% {
-        -webkit-transform: scale(0)
-    }
-
-    50% {
-        -webkit-transform: scale(1)
-    }
-}
-
-@keyframes bouncee {
-
-    0%,
-    100% {
-        transform: scale(0);
-        -webkit-transform: scale(0)
-    }
-
-    50% {
-        transform: scale(1);
-        -webkit-transform: scale(1)
-    }
-}
-
 #scrollUp {
     position: fixed;
     right: 1%;
@@ -638,96 +594,8 @@ h6 {
     transform: translateY(-3px)
 }
 
-@-webkit-keyframes dropdownAnimation {
-    0% {
-        left: 50%;
-        -webkit-transform: translateX(-50%) translateY(20px);
-        transform: translateX(-50%) translateY(20px);
-        visibility: hidden;
-        opacity: 0
-    }
-
-    100% {
-        visibility: visible;
-        opacity: 1;
-        left: 50%;
-        -webkit-transform: translateX(-50%) translateY(0);
-        transform: translateX(-50%) translateY(0)
-    }
-}
-
-@keyframes dropdownAnimation {
-    0% {
-        left: 50%;
-        -webkit-transform: translateX(-50%) translateY(20px);
-        transform: translateX(-50%) translateY(20px);
-        visibility: hidden;
-        opacity: 0
-    }
-
-    100% {
-        visibility: visible;
-        opacity: 1;
-        left: 50%;
-        -webkit-transform: translateX(-50%) translateY(0);
-        transform: translateX(-50%) translateY(0)
-    }
-}
-
 .welcome-intro>h3 {
     font-size: 30px
-}
-
-@-webkit-keyframes grow {
-    0% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        opacity: 0
-    }
-
-    25% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        opacity: .5
-    }
-
-    50% {
-        -webkit-transform: scale(1.2, 1.2);
-        transform: scale(1.2, 1.2);
-        opacity: 1
-    }
-
-    100% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        opacity: 0
-    }
-}
-
-@keyframes grow {
-    0% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        opacity: 0
-    }
-
-    25% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        opacity: .5
-    }
-
-    50% {
-        -webkit-transform: scale(1.2, 1.2);
-        transform: scale(1.2, 1.2);
-        opacity: 1
-    }
-
-    100% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        opacity: 0
-    }
 }
 
 .footer-area .footer-items a:focus,
@@ -917,11 +785,6 @@ h6 {
     }
 }
 
-* {
-    margin: 0;
-    padding: 0
-}
-
 .body {
     font-family: Poppins, sans-serif;
     font-size: 14px;
@@ -1076,133 +939,6 @@ h6 {
     }
 }
 
-@-webkit-keyframes rotatee {
-    100% {
-        -webkit-transform: rotate(360deg)
-    }
-}
-
-@keyframes rotatee {
-    100% {
-        transform: rotate(360deg);
-        -webkit-transform: rotate(360deg)
-    }
-}
-
-@-webkit-keyframes bouncee {
-
-    0%,
-    100% {
-        -webkit-transform: scale(0)
-    }
-
-    50% {
-        -webkit-transform: scale(1)
-    }
-}
-
-@keyframes bouncee {
-
-    0%,
-    100% {
-        transform: scale(0);
-        -webkit-transform: scale(0)
-    }
-
-    50% {
-        transform: scale(1);
-        -webkit-transform: scale(1)
-    }
-}
-
-@-webkit-keyframes dropdownAnimation {
-    0% {
-        left: 50%;
-        -webkit-transform: translateX(-50%) translateY(20px);
-        transform: translateX(-50%) translateY(20px);
-        visibility: hidden;
-        opacity: 0
-    }
-
-    100% {
-        visibility: visible;
-        opacity: 1;
-        left: 50%;
-        -webkit-transform: translateX(-50%) translateY(0);
-        transform: translateX(-50%) translateY(0)
-    }
-}
-
-@keyframes dropdownAnimation {
-    0% {
-        left: 50%;
-        -webkit-transform: translateX(-50%) translateY(20px);
-        transform: translateX(-50%) translateY(20px);
-        visibility: hidden;
-        opacity: 0
-    }
-
-    100% {
-        visibility: visible;
-        opacity: 1;
-        left: 50%;
-        -webkit-transform: translateX(-50%) translateY(0);
-        transform: translateX(-50%) translateY(0)
-    }
-}
-
-@-webkit-keyframes grow {
-    0% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        opacity: 0
-    }
-
-    25% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        opacity: .5
-    }
-
-    50% {
-        -webkit-transform: scale(1.2, 1.2);
-        transform: scale(1.2, 1.2);
-        opacity: 1
-    }
-
-    100% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        opacity: 0
-    }
-}
-
-@keyframes grow {
-    0% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        opacity: 0
-    }
-
-    25% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        opacity: .5
-    }
-
-    50% {
-        -webkit-transform: scale(1.2, 1.2);
-        transform: scale(1.2, 1.2);
-        opacity: 1
-    }
-
-    100% {
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-        opacity: 0
-    }
-}
-
 .footer-area .footer-items a:focus,
 .footer-area .footer-items a:hover {
     color: #00cff2 !important
@@ -1262,12 +998,17 @@ h6 {
 
 .logo,
 .symbol {
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1
 }
 
-.navbar-brands{
+.logoHold {
+    display: flex;
+    font-size: x-large
+}
+
+.navbar-brands {
     top: 0;
     position: absolute;
-    padding: 15px;
+    padding: 15px
 }

@@ -7,7 +7,7 @@ import { NgxTypedJsModule } from 'ngx-typed-js';
 import { SharedModule } from '../shared/shared.module';
 import { AboutMeModule } from '../about-me/about-me.module';
 import { WorkModule } from '../work/work.module';
-import { AchievementsModule } from '../achievements/achievements.module';
+import { BrowserModule } from '@angular/platform-browser';
 
 
 @NgModule({
@@ -21,7 +21,6 @@ import { AchievementsModule } from '../achievements/achievements.module';
     SharedModule,
     AboutMeModule,
     WorkModule,
-    AchievementsModule
   ]
 })
 export class DashboardModule { }

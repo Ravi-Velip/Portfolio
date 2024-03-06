@@ -1,0 +1,127 @@
+img {
+    width: 108px;
+    height: 108px;
+    border-radius: 50%;
+    border: solid;
+}
+
+.name {
+    line-height: 27px;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.contact-head {
+    margin-bottom: 10px !important;
+}
+
+.details {
+    padding-bottom: 15px;
+}
+
+.tag-head {
+    font-weight: 900;
+}
+
+.address {
+    padding-top: 12px;
+}
+
+.resume {
+    width: 63%;
+    border: solid 2px #000;
+    line-height: 36px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.download {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 900;
+}
+
+svg:not(:root).svg-inline--fa {
+    overflow: visible
+}
+
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em
+}
+
+.svg-inline--fa.fa-w-10 {
+    width: .625em
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1em
+}
+
+a {
+    color: #444
+}
+
+a:hover {
+    color: #00cff2
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+a {
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s
+}
+
+.social-icons>a {
+    margin: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s
+}
+
+.social-icons svg {
+    display: block;
+    height: 100%;
+    line-height: 45px;
+    margin: 0 auto;
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s
+}
+
+.social-icons>a:hover svg:first-child {
+    margin-top: -45px
+}
+
+.social-icons>a.facebook {
+    background-color: #3b5999 !important
+}
+
+.social-icons>a.twitter {
+    background-color: #55acee !important
+}
+
+.social-icons>a.google-plus {
+    background-color: #dd4b39 !important
+}
+
+.social-icons>a.vine {
+    background-color: #00b489 !important
+}

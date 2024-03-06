@@ -5,9 +5,11 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { environment } from 'src/environments/environment';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { AppComponent } from './app.component';
-import {MatCheckboxModule} from '@angular/material/checkbox';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AboutMeModule } from './modules/about-me/about-me.module';
 
 @NgModule({
   declarations: [
@@ -15,6 +17,7 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     AngularFireModule,
     AngularFireModule.initializeApp(environment.firebase),
@@ -22,7 +25,8 @@ import { RouterModule } from '@angular/router';
     MatCheckboxModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule
+    RouterModule,
+    AboutMeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

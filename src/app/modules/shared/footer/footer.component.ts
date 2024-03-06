@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-declare var logo:any;
+import { ContactDetailsComponent } from '../contact-details/contact-details.component';
+import { MatDialog } from '@angular/material/dialog';
+declare var logo: any;
 
 @Component({
   selector: 'app-footer',
@@ -8,10 +10,19 @@ declare var logo:any;
 })
 export class FooterComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    public dialog: MatDialog
+  ) { }
 
   ngOnInit(): void {
-    logo()
+  }
+
+  openDialog() {
+    const dialogRef = this.dialog.open(ContactDetailsComponent);
+
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(`Dialog result: ${result}`);
+    });
   }
 
 }
